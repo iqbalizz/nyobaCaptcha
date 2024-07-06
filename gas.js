@@ -1,11 +1,11 @@
 // import fetch from "node-fetch";
 import axios from "axios";
-import { bootstrap } from "global-agent";
+// import { bootstrap } from "global-agent";
 
-// Setel alamat proxy dan port
-process.env.GLOBAL_AGENT_HTTP_PROXY = 'http://192.168.77.129:7071';
+// // Setel alamat proxy dan port
+// process.env.GLOBAL_AGENT_HTTP_PROXY = 'http://192.168.77.129:7071';
 
-bootstrap();
+// bootstrap();
 
 
 async function solveStandaloneCaptcha(apiKey, sitekey, pageurl) {
