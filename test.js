@@ -113,7 +113,7 @@ const testAja = (inputEmail, token, userAgent) => new Promise((resolve, reject) 
 
     const inputEmail = `baaaaaaaaaaaaaaaaal@gmail.com`;
 
-    const apiKey = 'd1aaead8bf67966d9ce5a44914ceb244';
+    const apiKey = '';
 
     // Kasus 1: Standalone Captcha siteKey loket 0x4AAAAAAAVGwLc24u4kvmvl
     const standaloneCaptchaResult = await solveStandaloneCaptcha(apiKey, '0x4AAAAAAAeSbRUS6TWlS6OA', 'https://hendyanmadethis.com/iqbal/');

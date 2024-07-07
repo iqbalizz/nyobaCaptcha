@@ -1,12 +1,11 @@
 // import fetch from "node-fetch";
 import axios from "axios";
-// import { bootstrap } from "global-agent";
+import { bootstrap } from "global-agent";
 
-// // Setel alamat proxy dan port
-// process.env.GLOBAL_AGENT_HTTP_PROXY = 'http://192.168.77.129:7071';
+// Setel alamat proxy dan port
+process.env.GLOBAL_AGENT_HTTP_PROXY = 'http://192.168.6.144:7071';
 
-// bootstrap();
-
+bootstrap();
 
 async function solveStandaloneCaptcha(apiKey, sitekey, pageurl) {
     try {
@@ -112,7 +111,7 @@ const testAja = async (inputEmail, token, userAgent) => {
 
 (async () => {
     const inputEmail = `baaaaaaasdsdsaal@gmail.com`;
-    const apiKey = 'd1aaead8bf67966d9ce5a44914ceb244';
+    const apiKey = '';
 
     const standaloneCaptchaResult = await solveStandaloneCaptcha(apiKey, '0x4AAAAAAAeSbRUS6TWlS6OA', 'https://hendyanmadethis.com/iqbal/');
     console.log('Standalone Captcha Result:', standaloneCaptchaResult);

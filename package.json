@@ -16,6 +16,7 @@
     "child_process": "^1.0.2",
     "curl-generator": "^0.4.0",
     "global-agent": "^3.0.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "public-ip": "^6.0.2"
   }
 }

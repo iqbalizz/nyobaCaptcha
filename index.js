@@ -10,7 +10,7 @@ const testDulu = () => new Promise((resolve, reject) => {
     fetch(`https://2captcha.com.com/in.php `, {
         method: 'POST',
         body: {
-            "key": "d1aaead8bf67966d9ce5a44914ceb244",
+            "key": "",
             "method": "turnstile",
             "sitekey": "0x4AAAAAAAAjq6WYeRDKmebM",
             "data": "7fab0000b0e0ff00",

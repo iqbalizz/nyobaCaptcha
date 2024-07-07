@@ -4,7 +4,7 @@ import axios from "axios";
 import { bootstrap } from "global-agent";
 
 // Setel alamat proxy dan port
-process.env.GLOBAL_AGENT_HTTP_PROXY = 'http://192.168.77.129:7071';
+process.env.GLOBAL_AGENT_HTTP_PROXY = 'http://192.168.6.144:7071';
 
 bootstrap();
 
@@ -179,7 +179,7 @@ export const getCookie = (resultCookie) => {
 
 (async () => {
 
-    const apiKey = 'd1aaead8bf67966d9ce5a44914ceb244';
+    const apiKey = '';
 
     const resultAuthToken = await getAuthToken();
     const resultBody = resultAuthToken.body;
